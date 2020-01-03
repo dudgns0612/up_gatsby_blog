@@ -9,6 +9,7 @@ module.exports = {
     github: `dudgns0612`, // Your GitHub account
     medium: ``, // Your Medium account
     facebook: ``, // Your Facebook account
+    tistory: ``
   },
   icon: `content/assets/felog.png`, // Add your favicon
   keywords: [`blog`],
