@@ -1,11 +1,11 @@
 ---
-title: 'DELETE와 TRUNCATE 차이'
+title: 'delete와 truncate차이'
 date: 2020-01-13
 category: 'database'
 draft: false
 ---
 
-![](./images/banner/rdbs_banner.png)
+![](./images/banner/rdbs.png)
 
 ## DELETE와 TRUNCATE 차이
 - DELETE와 TRUNCATE는 테이블의 내용을 삭제하기 위한 database sql 언어들로 둘은 공통점을 가집니다. 
