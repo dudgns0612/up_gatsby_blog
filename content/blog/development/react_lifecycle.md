@@ -1,11 +1,11 @@
 ---
 title: 'React 컴포넌트 라이프사이클'
-date: 2020-1-9 16:21:13
+date: 2020-01-08
 category: 'react'
 draft: false
 ---
 
-![](./images/react.png)
+![](./images/banner/react.png)
 
 ## 개요
 - 모든 리액트 컴포넌트에는 라이프사이클(LifeCycle)이 존재한다.
