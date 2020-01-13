@@ -1,7 +1,7 @@
 module.exports = {
   title: `Hoons Blog`,
   description: `Blog posted about ...`,
-  author: `Younghoon Kim`,
+  author: `Hoons`,
   introduction: `Software Technology Development, Daily Blog.`,
   siteUrl: `https://hoons-up.netlify.com/`, // Your blog site url
   social: {
