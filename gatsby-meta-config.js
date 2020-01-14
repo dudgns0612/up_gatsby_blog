@@ -7,6 +7,7 @@ module.exports = {
   social: {
     twitter: ``, // Your Twitter account
     github: `dudgns0612`, // Your GitHub account
+    team_github: `Team-HST`,
     medium: ``, // Your Medium account
     facebook: ``, // Your Facebook account
     tistory: ``
