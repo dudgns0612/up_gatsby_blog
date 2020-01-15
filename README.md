@@ -17,3 +17,6 @@ $ cd my-blog-starter/
 $ npm start
 # open localhost:8000
 ```
+
+## Template
+- gatsby-starter-bee template [@JaeYeopHan](https://github.com/JaeYeopHan/gatsby-starter-bee)
