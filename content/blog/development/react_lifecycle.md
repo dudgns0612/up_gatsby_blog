@@ -1,5 +1,5 @@
 ---
-title: 'React 컴포넌트 라이프사이클'
+title: 'react 컴포넌트 라이프사이클'
 date: 2020-01-08
 category: 'react'
 draft: false

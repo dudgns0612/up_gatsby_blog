@@ -13,7 +13,7 @@ draft: false
 mariaDB는 10.4 이후로 update 된 내용을 아래와 같이 기재
 대략 시스템의 root와 mariaDB에 root와 동일하게 본다는 뜻
 그렇기에 db 접속 시 시스템에 root로 등록하면 mysql 명령어로 접속 시
-root 패스워드가 따로 필요 없어졌습니다.
+root 패스워드가 따로 필요 없어졌다.
 
 공식 - https://mariadb.com/kb/en/library/authentication-from-mariadb-104/
 
@@ -25,7 +25,7 @@ ERROR 1348 (HY000): Column 'Password' is not updatable
 ```
 
 
-- mariaDB 10.4 이상부터는 이렇게 명령어를 사용해서 root에 패스워드를 변경할 수 있습니다.
+- mariaDB 10.4 이상부터는 이렇게 명령어를 사용해서 root에 패스워드를 변경할 수 있다.
 
 ```sh
 MariaDB [mysql]> set password=password('rootpassword');
