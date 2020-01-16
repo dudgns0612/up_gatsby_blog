@@ -1,6 +1,3 @@
-## Blog URL
-- https://hoons-up.netlify.com/
-
 ## Quick Start
 
 ### 1. Create a Gatsby
