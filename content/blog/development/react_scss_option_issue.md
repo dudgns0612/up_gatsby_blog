@@ -20,7 +20,7 @@ scss파일을 불러올 때 styles 경로를 잡아주어 절대경로로 불러
 참고 - https://velog.io/@velopert/react-component-styling
 
 현재 보고있는 책은 리액트를 다루는 기술에 개정판이 아닌 초판이라 설명이 다른건진 모르겠지만
-찾아본 결과 책에는 아래와 같이 options에 추가하도록 나와있지만 현재 react 16.12 ver에선
+찾아본 결과 책에는 아래와 같이 options에 추가하도록 나와있지만 
 
 ```js
 ...
@@ -32,7 +32,7 @@ scss파일을 불러올 때 styles 경로를 잡아주어 절대경로로 불러
 }
 ```
 
-아래와 같이 options안에 sassOptions로 설정을 해줘야 정상으로 작동하였다.
+현재 react 16.12 ver에선 아래와 같이 options안에 sassOptions로 설정을 해줘야 정상으로 작동하였다.
 
 ```js
 ...
