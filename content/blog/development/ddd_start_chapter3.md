@@ -5,6 +5,8 @@ category: 'DDD Start!'
 draft: false
 ---
 
+#### ※DDD Start! 책이 있다는 가정하에 정리한 포스팅입니다.
+
 ## 애그리거트
 
 - 애그러거트는 관련된 객체를 하나의 군으로 묶어준다.
