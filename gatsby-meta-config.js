@@ -12,6 +12,7 @@ module.exports = {
     facebook: ``, // Your Facebook account
     tistory: ``
   },
+  profile: `/content/assets/profile.png`,
   icon: `content/assets/felog.png`, // Add your favicon
   keywords: [`blog`],
   comment: {

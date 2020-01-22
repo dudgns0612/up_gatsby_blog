@@ -51,6 +51,10 @@ export function Head({ description, lang, meta, keywords, title }) {
                 content: metaDescription,
               },
               {
+                name: `og:image`,
+                content: data.site.siteMetadata.profile
+              },
+              {
                 name: `google-site-verification`,
                 content: `6jklNxOVAg9ajRyHh546MhNH7U3GJF_JD686N3ceu5M`
               }
