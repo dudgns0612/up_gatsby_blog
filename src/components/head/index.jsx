@@ -31,6 +31,10 @@ export function Head({ description, lang, meta, keywords, title }) {
                 content: metaDescription,
               },
               {
+                name: `og:image`,
+                content: data.avatar.childImageSharp.fixed
+              },
+              {
                 property: `og:type`,
                 content: `website`,
               },
@@ -49,10 +53,6 @@ export function Head({ description, lang, meta, keywords, title }) {
               {
                 name: `twitter:description`,
                 content: metaDescription,
-              },
-              {
-                name: `og:image`,
-                content: data.site.siteMetadata.profile
               },
               {
                 name: `google-site-verification`,
