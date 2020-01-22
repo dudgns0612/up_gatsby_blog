@@ -32,7 +32,7 @@ export function Head({ description, lang, meta, keywords, title }) {
               },
               {
                 name: `og:image`,
-                content: data.avatar.childImageSharp.fixed
+                content: data.avatar.childImageSharp.fixed.src
               },
               {
                 property: `og:type`,
