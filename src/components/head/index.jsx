@@ -31,7 +31,7 @@ export function Head({ description, lang, meta, keywords, title }) {
                 content: metaDescription,
               },
               {
-                name: `og:image`,
+                property: `og:image`,
                 content: data.avatar.childImageSharp.fixed.src
               },
               {
