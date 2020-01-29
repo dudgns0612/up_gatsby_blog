@@ -1,7 +1,7 @@
 ---
 title: 'delete와 truncate차이'
 date: 2020-01-13
-category: 'database'
+category: 'Database'
 draft: false
 ---
 

@@ -1,13 +1,13 @@
 ---
-title: 'react scss 커스터마이징 에러'
+title: 'React scss 커스터마이징 에러'
 date: 2020-01-17
-category: 'react'
+category: 'React'
 draft: false
 ---
 
 ![](./images/banner/react.png)
 
-## react scss 커스터마이징 오류
+## React scss 커스터마이징 오류
 
 리액트를 다루는 기술이라는 책을 통해 예제를 공부하던 중 아래와 같은 에러가 발생
 
@@ -32,7 +32,7 @@ scss파일을 불러올 때 styles 경로를 잡아주어 절대경로로 불러
 }
 ```
 
-현재 react 16.12 ver에선 아래와 같이 options안에 sassOptions로 설정을 해줘야 정상으로 작동하였다.
+현재 React 16.12 ver에선 아래와 같이 options안에 sassOptions로 설정을 해줘야 정상으로 작동하였다.
 
 ```js
 ...

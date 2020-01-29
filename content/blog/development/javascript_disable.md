@@ -1,7 +1,7 @@
 ---
 title: 'disabled 속성 사용하기'
 date: 2020-01-14
-category: 'javascript'
+category: 'JavaScript'
 draft: false
 ---
 

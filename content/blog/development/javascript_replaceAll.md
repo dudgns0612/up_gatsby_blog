@@ -1,7 +1,7 @@
 ---
 title: '정규식을 이용한 replace로 replaceAll 사용'
 date: 2020-01-14
-category: 'javascript'
+category: 'JavaScript'
 draft: false
 ---
 

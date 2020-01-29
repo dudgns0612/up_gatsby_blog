@@ -1,7 +1,7 @@
 ---
 title: 'CentOS7 boot kernel 변경하기'
 date: 2019-11-14
-category: 'linux'
+category: 'Linux'
 draft: false
 ---
 

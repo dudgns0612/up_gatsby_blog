@@ -1,7 +1,7 @@
 ---
-title: 'react ie지원 설정하기'
+title: 'React ie지원 설정하기'
 date: 2020-01-15
-category: 'react'
+category: 'React'
 draft: false
 ---
 

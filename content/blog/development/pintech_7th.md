@@ -1,7 +1,7 @@
 ---
 title: '제7회 핀테크×인슈어테크 해커톤 참가'
 date: 2020-01-15
-category: 'daily'
+category: 'Daily'
 draft: false
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: 'mariaDB 10.4버전 이후 root 패스워드 변경'
 date: 2020-01-14
-category: 'database'
+category: 'Database'
 draft: false
 ---
 

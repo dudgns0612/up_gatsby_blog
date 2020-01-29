@@ -1,7 +1,7 @@
 ---
-title: 'react Immutable 정리'
+title: 'React Immutable 정리'
 date: 2020-01-22
-category: 'react'
+category: 'React'
 draft: false
 ---
 

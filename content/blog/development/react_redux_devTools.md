@@ -1,15 +1,15 @@
 ---
-title: 'react redux devTools 개발자 도구 사용'
+title: 'React redux devTools 개발자 도구 사용'
 date: 2020-01-20
-category: 'react'
+category: 'React'
 draft: false
 ---
 
 ![](./images/banner/react.png)
 
-## react redux devTools 개발자 도구 사용
+## React redux devTools 개발자 도구 사용
 redux 개발 시 디버깅에 유용한 툴로 스토어의 상태나 어떤 액션들이 디스패치 되었는지 알 수 있어 유용한 툴이다.
-redux는 react에만 국한된 모듈은 아니지만 react 셋팅 환경으로 설명했다.
+redux는 React에만 국한된 모듈은 아니지만 React 셋팅 환경으로 설명했다.
 
 
 ### 설치방법
