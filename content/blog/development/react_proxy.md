@@ -42,6 +42,8 @@ yarn add http-proxy-middleware
 
 ```js
 // src/setupProxy.js
+const proxy = require('http-proxy-middleware');
+
 module.exports = function(app) {
     app.use(
         proxy('/posts', {
@@ -68,6 +70,8 @@ pathRewrite는 서버 API https://jsonplaceholder.typicode.com/posts/1 이라고
 
 ```js
 // src/setupProxy.js
+const proxy = require('http-proxy-middleware');
+
 module.exports = function(app) {
     app.use(
         proxy('/api', {
