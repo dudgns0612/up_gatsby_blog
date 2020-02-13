@@ -11,7 +11,7 @@ draft: false
 
 React에서 백엔드 서버로 API 요청 시 호출 할 때 발생 할 수 있는 CORS 관련 오류를 방지하기 위하여 Proxy를
 설정하여 준다. 간단하게 설정하는 방법과 수동으로 커스터마이징하는 방법을 정리한다.
-테스트는 (VLOEERT BLOG)['https://velopert.com/']에서 API 예시를 사용했다.
+테스트는 [VLOEERT BLOG](https://velopert.com/)에서 API 예시를 사용했다.
 
 ### package.json를 통한 설정
 
