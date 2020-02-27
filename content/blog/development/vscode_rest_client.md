@@ -11,8 +11,8 @@ draft: false
 Visual Studio Code로 개발을 진행하면서 편리한 Extension을 찾다가 Postman을 대체하여 API 테스트나 간단한 문서 정리에 참고하기 좋은 Extension을 발견하여 소개하는 글을 작성한다.
 
 ### Rest Client 설명 참고
-아래는 Rest Client를 사용하면서 참고할 수 있는 Marketplace다.
-(Rest Client 설명 참고)[https://marketplace.visualstudio.com/items?itemName=humao.rest-client]
+아래는 Rest Client를 사용하면서 참고할 수 있는 Marketplace다. <br />
+[Rest Client 설치 및 문서 참고](https://marketplace.visualstudio.com/items?itemName=humao.rest-client)
 
 ### 설치 및 기본 셋팅
 1. 아래와 같이 VSCode Marketplace를 사용하여 Rest Client를 설치하여 준다.
