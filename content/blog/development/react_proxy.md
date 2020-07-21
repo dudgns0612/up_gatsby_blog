@@ -38,20 +38,21 @@ React에서 백엔드 서버로 API 요청 시 호출 할 때 발생 할 수 있
 ```sh
 yarn add http-proxy-middleware
 ```
+
 2. setupProxy.js 파일을 src 밑에 생성 후 아래와 같이 프로젝트 proxy 설정을 커스터마이징 해준다.
 
 ```js
 // src/setupProxy.js
-const proxy = require('http-proxy-middleware');
+const proxy = require('http-proxy-middleware')
 
 module.exports = function(app) {
-    app.use(
-        proxy('/posts', {
-            target: 'https://jsonplaceholder.typicode.com', // 비즈니스 서버 URL 설정
-            changeOrigin: true
-        })
-    );
-};
+  app.use(
+    proxy('/posts', {
+      target: 'https://jsonplaceholder.typicode.com', // 비즈니스 서버 URL 설정
+      changeOrigin: true,
+    })
+  )
+}
 ```
 
 proxy 설정을 추가해줌으로 /api로 시작되는 API는 target으로 설정된 서버 URL로 호출하도록 설정된다.
@@ -60,6 +61,24 @@ https://jsonplaceholder.typicode.com/posts/1로 호출하게 된다.
 
 changeOrigin 설정은 http-proxy 모듈의 설명과 같이 대상 서버 구성에 따라 호스트 헤더가 변경되도록
 설정하여 준다.
+
+### http-proxy-middleware v1.0 이후 수정사항
+
+http-proxy-middleware가 최근 버전을 업데이트하면서 proxy 설정이 아래와 같이 변경되었으니
+해당 모듈 문서와 option들을 [확인](https://www.npmjs.com/package/http-proxy-middleware) 해보고 적용시키도록 하자.
+
+```js
+const { createProxyMiddleware } = require('http-proxy-middleware')
+
+module.exports = function(app) {
+  app.use(
+    createProxyMiddleware('/api', {
+      target: 'https://jsonplaceholder.typicode.com',
+      changeOrigin: true,
+    })
+  )
+}
+```
 
 ### pathRewrite 설정
 
@@ -70,18 +89,17 @@ pathRewrite는 서버 API https://jsonplaceholder.typicode.com/posts/1 이라고
 
 ```js
 // src/setupProxy.js
-const proxy = require('http-proxy-middleware');
+const proxy = require('http-proxy-middleware')
 
 module.exports = function(app) {
-    app.use(
-        proxy('/api', {
-            target: 'https://jsonplaceholder.typicode.com',
-            changeOrigin: true,
-            pathRewrite: {
-                '^/api': '' // URL ^/api -> 공백 변경
-            }
-        })
-    );
-};
+  app.use(
+    proxy('/api', {
+      target: 'https://jsonplaceholder.typicode.com',
+      changeOrigin: true,
+      pathRewrite: {
+        '^/api': '', // URL ^/api -> 공백 변경
+      },
+    })
+  )
+}
 ```
-
