@@ -62,3 +62,6 @@ Apollo를 사용하면서 느꼈던 특징을 아주 잘 정리된 포스팅을 
 
 다음 포스팅에서는 Express / GraphQL / Appllo-Server를 사용해서
 간단하게 GraphQL 서버를 구현하여 보려고 한다.
+
+**다음 포스팅 -**
+[**Express / GraphQL / Appllo 맛보기 2 (Mysql)**](/development/express_graphql_apollo2)

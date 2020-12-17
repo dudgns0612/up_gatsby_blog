@@ -16,11 +16,13 @@ React와 GraphQL, Apollo-Client를 사용해서 클라이언트까지 정말 간
 
 GraphQL과 Apollo에 대한 간단한 설명은 이전 포스팅을 참고
 <br />
+
 [**Express / GraphQL / Appllo 맛보기1**](/development/express_graphql_apollo1/)
 
 포스팅은 Node 개발환경 셋팅이나 IDE(개발 툴)의 설정이 되었다는 가정하에 진행하겠다. 개발 설정이 필요하다면
 아래 포스팅을 참고
 <br />
+
 [**Node란? 설치 및 맛보기**](/development/node_install/)
 
 ## 기본 설정
