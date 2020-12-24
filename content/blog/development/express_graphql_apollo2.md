@@ -373,4 +373,8 @@ Mutation으로 작성했던 addUser를 추가한다. gql을 작성하고 가운�
 
 위와 같이 작성했던 query users에 필요한 정보를 데이터만 불러오면 된다. 예를 들어 위에처럼 userId만 조회할 수도 있고 userId, userName 두 가지가 필요하면 userId, userName을 users안에 정의하면 된다. 따라서 스키마를 정의하고 안에 필요한 데이터만 불러올 수 있게 된다 여기서 언급한 GraphQL의 장점인 Overfetching을 해소한다는 점이 여기서 느껴졌다. 위에 소스들을 바탕으로 여러 가지 궁금 한 테스트를 진행해보면 될 거 같다.
 
+아래는 포스팅에서 생성한 ApolloServer 통해 구현한 React ApolloClient 다음 포스팅이다.
+<br />
+[**React, GraphQL, Apollo 맛보기**](/development/express_graphql_apollo2/)
+
 #### _문제 될 만한 설명이나 소스가 있으면 댓글로 알려주시면 수정하겠습니다._
