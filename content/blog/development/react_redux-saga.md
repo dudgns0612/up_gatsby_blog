@@ -130,12 +130,10 @@ redux 미들웨어에는 비동기 처리를 위한 redux-thunk나 redux-saga를
 저는 Root.js를 만들어 App.js가 Route 역할만 담당할 수 있도록 빼는 게 습관이기에 Root.js를 만들어
 redux 적용을 위한 Provider 컴포넌트를 적용시켜줬다.
 
-## Root.js 생성
-
 src 폴더 아래 Root.js 파일을 만들고 store를 react에 적용시켜줍니다. 아직 store을 만들지 않았기 때문에
 오류가 나도 일단 무시하자.
 
-**src/Rooot.js**
+**src/Root.js**
 
 ```js
 import { Provider } from 'react-redux';
